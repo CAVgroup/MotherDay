@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alles Liebe zum Muttertag!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #fff5f5;
+            color: #d23669;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .herz {
+            color: #ff6b81;
+            font-size: 2em;
+            animation: pulsieren 1s infinite alternate;
+        }
+        @keyframes pulsieren {
+            from { transform: scale(1); }
+            to { transform: scale(1.2); }
+        }
+        .signatur {
+            font-style: italic;
+            margin-top: 30px;
+        }
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Alles Liebe zum Muttertag! <span class="herz">❤️</span></h1>
+    
+    <img src="https://example.com/muttertag-bild.jpg" alt="Blumen für Mama" />
+    <!-- Ersetze die Bild-URL mit einem echten Bild oder lade eine lokale Datei hoch -->
+    
+    <p>Liebe Mama,</p>
+    
+    <p>heute ist dein besonderer Tag und ich möchte dir danken für alles, was du für mich tust.<br>
+    Deine Liebe, Geduld und Fürsorge machen jeden Tag schöner.</p>
+    
+    <p>Du bist die Beste! <span class="herz">💐</span></p>
+    
+    <p class="signatur">Von ganzem Herzen,<br>Dein [Dein Name]</p>
+    
+    <script>
+        // Kleine Animation beim Laden der Seite
+        document.addEventListener('DOMContentLoaded', function() {
+            const titel = document.querySelector('h1');
+            titel.style.opacity = '0';
+            titel.style.transition = 'opacity 2s';
+            setTimeout(() => { titel.style.opacity = '1'; }, 500);
+        });
+    </script>
+</body>
+</html>
