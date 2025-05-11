@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muttertag App Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5e6ff;
+            color: #4b2c83;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #8a2be2;
+            text-align: center;
+            border-bottom: 2px solid #b399d4;
+            padding-bottom: 10px;
+        }
+        .version-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .version-card:hover {
+            transform: translateY(-5px);
+        }
+        .version-title {
+            color: #6a1b9a;
+            margin-top: 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #9c4dff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #7b2cff;
+        }
+        .tag {
+            display: inline-block;
+            background: #e0c4ff;
+            padding: 3px 8px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎀 Muttertag App Collection</h1>
+    
+    <div class="version-card">
+        <h2 class="version-title">1. Minimal Version</h2>
+        <p><span class="tag">Lightweight</span> <span class="tag">No images</span></p>
+        <p>Die schnellste Version ohne Bilder oder externe Abhängigkeiten.</p>
+        <a href="minimal.html" class="btn">Öffnen</a>
+    </div>
+    
+    <div class="version-card">
+        <h2 class="version-title">2. Standard Version</h2>
+        <p><span class="tag">GitHub Pages</span> <span class="tag">Mit Bild</span></p>
+        <p>Optimiert für GitHub Pages mit Platzhalter für ein Bild.</p>
+        <a href="standard.html" class="btn">Öffnen</a>
+    </div>
+    
+    <div class="version-card">
+        <h2 class="version-title">3. App-Optimiert</h2>
+        <p><span class="tag">Cordova</span> <span class="tag">WebView</span></p>
+        <p>Für mobile Apps mit speziellen Sicherheitseinstellungen.</p>
+        <a href="app-optimized.html" class="btn">Öffnen</a>
+    </div>
+    
+    <div class="version-card">
+        <h2 class="version-title">4. Offline Version</h2>
+        <p><span class="tag">Kein Internet</span> <span class="tag">Lokale Dateien</span></p>
+        <p>Funktioniert komplett ohne Internetverbindung.</p>
+        <a href="offline.html" class="btn">Öffnen</a>
+    </div>
+    
+    <div class="version-card">
+        <h2 class="version-title">Alle Dateien herunterladen</h2>
+        <p>Das komplette Projekt als ZIP-Datei.</p>
+        <a href="https://github.com/cavgroup/MotherDay/archive/refs/heads/main.zip" class="btn">Download ZIP</a>
+    </div>
+</body>
+</html>
