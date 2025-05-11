@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muttertag App</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            text-align: center;
+            background: #b399d4;
+            color: white;
+            padding: 10px;
+            touch-action: manipulation;
+        }
+        button {
+            background: #ff6b81;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Für die beste Mama!</h1>
+    <button onclick="alert('Ich liebe dich!')">Klick mich</button>
+    <script>
+        // App-specific logic
+        document.addEventListener('deviceready', function() {
+            console.log("App ready!");
+        }, false);
+    </script>
+</body>
+</html>
