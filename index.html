@@ -9,9 +9,13 @@
             font-family: 'Arial', sans-serif;
             text-align: center;
             background-color: #b399d4; /* Lila Hintergrund */
-            color: #ffffff; /* Weiße Schrift für bessere Lesbarkeit */
+            color: #ffffff;
             padding: 20px;
             margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         h1 {
             font-size: 2.5em;
@@ -37,13 +41,6 @@
             margin-top: 30px;
             font-size: 1.3em;
         }
-        img {
-            max-width: 300px;
-            border-radius: 10px;
-            margin: 20px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border: 3px solid white;
-        }
     </style>
 </head>
 <body>
@@ -56,10 +53,9 @@
     
     <p>Du bist die Beste! <span class="herz">💐</span></p>
     
-    <p class="signatur">Von ganzem Herzen,<br>Dein Mohammed</p>
-    
+    <p class="signatur">Von ganzem Herzen,<br>Dein [Dein Name]</p>
+
     <script>
-        // Kleine Animation beim Laden der Seite
         document.addEventListener('DOMContentLoaded', function() {
             const titel = document.querySelector('h1');
             titel.style.opacity = '0';
