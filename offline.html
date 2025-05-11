@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline Muttertag</title>
+    <!-- Using inline CSS for offline reliability -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #b399d4;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        /* Embedded font for offline use */
+        @font-face {
+            font-family: 'Handwritten';
+            src: url('handwritten.woff2') format('woff2');
+        }
+        .handwritten {
+            font-family: 'Handwritten', cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="handwritten">Für meine Mama</h1>
+    <p>Dies funktioniert auch ohne Internet!</p>
+    <!-- Local image example -->
+    <img src="local-flower.png" alt="Blume" width="100">
+</body>
+</html>
